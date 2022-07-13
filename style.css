@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar .left img{
+    width: 25px;
+}
+
+.navbar .right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right p{
+    font-size: 14px;
+    color: #C5D2DC;
+}
+
+.navbar .right a{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: #5D5DFF;
+}
+
+.template{
+    text-align: center;
+    padding: 20px 80px;
+    background: #000;
+}
+
+.template .text h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.template .text p{
+    font-size: 14px;
+    color: #C5D2DC;
+    margin-bottom: 20px;
+}
+
+.template .text a{
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 8px;
+    background: #33363A;
+    color: #C5D2DC;
+    font-size: 14px;
+}
+
+.template .text a:first-child{
+    background-color: #5D5DFF;
+}
+
+
+
+.template .image{
+    margin-top: 40px;
+}
+
+.template .image img{
+    width: 100%;
+}
+
+.build{
+    padding: 20px 80px;
+    text-align: center;
+    background: #000;
+}
+
+ h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+.build p{
+    font-size: 14px;
+    color: #C5D2DC;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.build .build-carts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.build .build-carts img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.build .build-carts h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.line{
+    width: 100%;
+    height: 0.1px;
+    opacity: 0.5;
+    background: #C5D2DC;
+}
+
+.product{
+    padding: 40px 80px;
+    text-align: center;
+    background: #000;
+}
+
+.product span{
+    padding: 5px;
+    font-size: 12px;
+    color: #36A269;
+    background-color: #C6F6D5;
+    border-radius: 20px;
+}
+.product p{
+    font-size: 14px;
+    color: #C5D2DC;
+    margin-bottom: 10px;
+}
+.product .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.box .text-box span{
+    font-size: 12px;
+    color: #5D5DFF;
+    padding: 0;
+    background: none;
+}
+
+.box .text-box{
+    width: 30%;
+    text-align: left;
+}
+
+.box .text-box p img{
+    margin-right: 10px;
+}
+
+.take{
+    padding: 40px 80px;
+    text-align: center;
+    background: #000;
+}
+
+.take p{
+    font-size: 14px;
+    color: #9BA9B4;
+    margin-bottom: 40px;
+}
+
+.take .user-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.user-cart .cart{
+    width: 30%;
+    padding: 10px;
+    background: #33363A;
+    text-align: left;
+}
+
+.user-cart .cart img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.user-cart .cart p{
+    font-size: 14px;
+    color: #9BA9B4;
+    margin-bottom: 15px;
+}
+
+.cart .user-name{
+    display: flex;
+    align-items: center;
+}
+
+.cart .user-name p{
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.cart .user-name span{
+    font-size: 15px;
+    color: #5D5DFF;
+}
+
+.take .subscribe{
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5D5DFF;
+    text-align: left;
+}
+
+.subscribe .sub-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.subscribe .btn input{
+    width: 200px;
+    height: 20px;
+    padding: 8px;
+    background: #4B4ACF;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+::placeholder{color: #ABABFF;}
+
+.subscribe .btn button {
+    padding: 10px 15px;
+    color: #5D5DFF;
+    border: none;
+    outline: none;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer .logo img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.footer .logo p{
+    margin-bottom: 60px;
+}
+
+.right .link{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.link .link-inner{
+    margin-left: 40px;
+}
+
+.link .link-inner h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #D9E3EA;
+    margin-bottom: 5px;
+}
+
+.link .link-inner ul{
+    list-style: none;
+}
+
+.link .link-inner ul li{
+    margin-bottom: 5px;
+}
+
+.link .link-inner ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #9BA9B4;
+}
+
+.right .right-logo{
+    text-align: right;
+}
+
+.right .right-logo img{
+    width: 180px;
+}
+
+@media (max-width: 600px) {
+    .template{
+        text-align: center;
+        padding: 10px 15px;
+        background: #000;
+    }
+    .template .text h1{
+        font-size: 20px;
+    }
+    .build, .product, .take{
+        padding: 10px 15px;
+        text-align: center;
+        background: #000;
+    }
+    .build-carts .cart{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .box .text-box{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .box .image-box{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .image-box img{
+        width: 100%;
+    }
+    .take .user-cart{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .user-cart .cart{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .take .subscribe{
+        padding: 30px 25px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .subscribe .btn{
+        display: flex;
+        align-items: center;
+    }
+    .footer{
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
